@@ -4,4 +4,4 @@ numpy
 pymongo
 certifi
 
--e .
+#-e . ## This is responsible for triggering setup.py file, put it at the last of project when i run pip install -r requirements.txt so it will automatically trigger setup.py
